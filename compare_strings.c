@@ -18,6 +18,10 @@ int compare(char str[100], char str2[100])
         {
             return 1;
         }
+        else
+        {
+            return 0;
+        }
     }
     else
     {
