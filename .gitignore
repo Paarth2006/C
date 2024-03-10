@@ -193,3 +193,5 @@
 /compare_strings.exe
 /sorting_pointer.exe
 /odd_even_array_pointer.exe
+/min_max_array_pointer.exe
+/reverse_array_pointer.exe
