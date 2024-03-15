@@ -9,7 +9,7 @@ int compare(char str[100], char str2[100])
     {
         for (i=0;str[i]!='\0';i++)
         {
-            if (str[i]==str[2])
+            if (str[i]==str2[i])
             {
                 c++;
             }
