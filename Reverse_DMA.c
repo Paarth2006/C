@@ -12,10 +12,10 @@ int main()
         printf("Enter the %d element of the array:",i+1);
         scanf("%d", (p+i));
     }
-    int index;
+    int pos;
     printf("Enter the postion to reverse from:");
-    scanf("%d",&index);
-    for (i=index-1,j=n-1;i<j;i++,j--)
+    scanf("%d",&pos);
+    for (i=pos-1,j=n-1;i<j;i++,j--)
     {
         t = *(p+i);
         *(p+i) = *(p+j);
